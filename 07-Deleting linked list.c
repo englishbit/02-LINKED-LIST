@@ -86,6 +86,5 @@ int main(){
     delete(&head);
 
 
-
     return 0;
 }
