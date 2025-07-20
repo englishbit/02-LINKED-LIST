@@ -9,7 +9,6 @@ struct node{
 };
 
 
-
 //logic for creating a node;
 struct node* crt_node(int data){
 
