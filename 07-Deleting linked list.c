@@ -21,7 +21,6 @@ struct node* crt_node(int data){
 
 
 
-
 //logic for adding a node at the last position of a node
 void add( struct node** head_point,int new_data){
 
