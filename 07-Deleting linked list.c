@@ -69,7 +69,6 @@ void delete(struct node** node){
 }
 
 
-
 int main(){
     struct node* head=NULL;
     add(&head,2);
