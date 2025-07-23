@@ -71,7 +71,6 @@ int main(){
     insert_beginning(&head,12);
 
 
-
     deletnode(&head, head->next);
 
 
