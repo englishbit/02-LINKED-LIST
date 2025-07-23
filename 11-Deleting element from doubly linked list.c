@@ -73,6 +73,5 @@ int main(){
 
     deletnode(&head, head->next);
 
-
     return 0;
 }
