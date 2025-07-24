@@ -54,6 +54,5 @@ int main(){
     insert_beginning(&head,10);
     insert_beginning(&head,12);
 
-
     return 0;
 }
