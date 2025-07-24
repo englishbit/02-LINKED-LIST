@@ -17,6 +17,7 @@ struct node* create(int data){
     return newnode;
 
 }
+
 //inserting at the beginning
 void insert_beginning(struct node** head,int data){
     struct node* newnode=create(data);
