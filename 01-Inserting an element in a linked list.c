@@ -48,7 +48,6 @@ void add( struct node** head_point,int new_data){
 
 
 
-
 int main(){
     struct node* head=NULL;
     add(&head,2);
