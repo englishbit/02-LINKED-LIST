@@ -70,8 +70,9 @@ int main(){
     insert_beginning(&head,10);
     insert_beginning(&head,12);
 
-
+    //calling the function
     deletnode(&head, head->next);
 
     return 0;
 }
+
