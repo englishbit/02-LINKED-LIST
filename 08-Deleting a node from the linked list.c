@@ -116,12 +116,5 @@ int main(){
 
     delete(&head,pos);
 
-
-
-
-
-
-
-
     return 0;
 }
