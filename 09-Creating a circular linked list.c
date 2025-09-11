@@ -42,8 +42,6 @@ void add( struct node** head_point,int new_data){
 
     struct node* last=*head_point;
 
-
-
     while(last->next!=*head_point){
         last=last->next;
     }
@@ -54,10 +52,6 @@ void add( struct node** head_point,int new_data){
 
 }
 
-
-
-
-
 int main(){
     struct node* head=NULL;
     add(&head,2);
@@ -67,3 +61,4 @@ int main(){
     add(&head,3);
     return 0;
 }
+
