@@ -65,13 +65,5 @@ int main(){
     add(&head,5);
     add(&head,9);
     add(&head,3);
-
-
-
-
-
-
-
-
     return 0;
 }
