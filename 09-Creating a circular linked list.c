@@ -6,8 +6,6 @@ struct node{
     struct node* next;
 };
 
-
-
 //logic for creating a node;
 struct node* crt_node(int data){
 
@@ -18,16 +16,10 @@ struct node* crt_node(int data){
         return new_node;
 }
 
-
-
-
 //logic for adding a node at the last position of a node
 void add( struct node** head_point,int new_data){
 
     struct node* newnode=crt_node(new_data);
-
-    
-
 
     if(*head_point==NULL){
         *head_point=newnode;
@@ -58,3 +50,4 @@ int main(){
     add(&head,3);
     return 0;
 }
+
