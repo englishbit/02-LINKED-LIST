@@ -1,15 +1,10 @@
 #include<stdio.h>
 #include<stdlib.h>
-
-
-
 //defining the structure 
 struct node{
     int data;
     struct node* next;
 };
-
-
 
 //logic for creating a node;
 struct node* crt_node(int data){
@@ -54,9 +49,6 @@ void print(struct node* node){
         }
 }
 
-
-
-
 int main(){
     struct node* head=NULL;
     add(&head,2);
@@ -69,3 +61,4 @@ int main(){
 
    return 0;
 }
+
