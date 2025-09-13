@@ -64,8 +64,8 @@ int main(){
     add(&head,5);
     add(&head,9);
 
-
-    print(head);
+//logic for output
+    printf(head);
 
    return 0;
 }
