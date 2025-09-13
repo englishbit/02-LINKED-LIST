@@ -66,12 +66,7 @@ int main(){
     add(&head,5);
     add(&head,9);
 
-
+//logic for output
     printf("the length of linked list is:%d\n",count(head));
-
-
-
-
-
     return 0;
 }
