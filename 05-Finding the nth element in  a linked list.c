@@ -1,8 +1,6 @@
 #include<stdio.h>
 #include<stdlib.h>
 
-
-
 //defining the structure 
 struct node{
     int data;
@@ -86,3 +84,4 @@ int main(){
     printf("%d",find_nth_node(head,key));
     return 0;
 }
+
