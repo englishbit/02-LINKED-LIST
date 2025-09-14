@@ -84,4 +84,3 @@ int main(){
     printf("%d",find_nth_node(head,key));
     return 0;
 }
-
