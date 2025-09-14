@@ -82,7 +82,7 @@ int main(){
     int key;
     //logic for taking input
     scanf("%d",&key);
+    //logic for output
     printf("%d",find_nth_node(head,key));
     return 0;
 }
-
