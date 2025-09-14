@@ -71,8 +71,6 @@ int find_nth_node(struct node* node,int val){
 }
 
 
-
-
 int main(){
     struct node* head=NULL;
     add(&head,2);
@@ -86,3 +84,4 @@ int main(){
     printf("%d",find_nth_node(head,key));
     return 0;
 }
+
