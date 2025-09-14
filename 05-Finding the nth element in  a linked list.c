@@ -80,7 +80,9 @@ int main(){
 
     //logic for special case
     int key;
+    //logic for taking input
     scanf("%d",&key);
     printf("%d",find_nth_node(head,key));
     return 0;
 }
+
