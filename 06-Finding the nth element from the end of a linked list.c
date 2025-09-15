@@ -65,6 +65,7 @@ int main(){
     add(&head,5);
     add(&head,9);
 
+    //logic for taking input
     int n;
     scanf("%d",&n);
 
@@ -78,3 +79,4 @@ int main(){
     
        return 0;
 }
+
