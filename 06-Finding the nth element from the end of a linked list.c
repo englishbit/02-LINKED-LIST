@@ -1,8 +1,6 @@
 #include<stdio.h>
 #include<stdlib.h>
 
-
-
 //defining the structure 
 struct node{
     int data;
@@ -85,4 +83,5 @@ int main(){
     
        return 0;
 }
+
 
