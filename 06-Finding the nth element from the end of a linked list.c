@@ -54,10 +54,6 @@ void trvrs_nod(struct node* node,int n){
         if(node==NULL)
         return;
 
-        
-
-
-
         trvrs_nod(node->next,n);
         count++;
         
@@ -68,9 +64,6 @@ void trvrs_nod(struct node* node,int n){
         
         
 }
-
-
-
 
 int main(){
     struct node* head=NULL;
@@ -92,3 +85,4 @@ int main(){
     
        return 0;
 }
+
