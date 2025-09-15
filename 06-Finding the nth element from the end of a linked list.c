@@ -90,15 +90,5 @@ int main(){
         printf("the list has fewer than %d nodes ",n);
     }
     
-
-
-
-
-
-
-
-
-
-
-    return 0;
+       return 0;
 }
