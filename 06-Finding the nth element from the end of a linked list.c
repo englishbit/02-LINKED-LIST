@@ -72,11 +72,12 @@ int main(){
 
     count=0;
     trvrs_nod(head,n);
-
+//logic for output
     if(count<n){
         printf("the list has fewer than %d nodes ",n);
     }
     
        return 0;
 }
+
 
