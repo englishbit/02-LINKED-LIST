@@ -49,6 +49,7 @@ int main(){
 
     struct node* head=NULL;
 
+    //logic for calling function
     insert_atend(&head,4);
     insert_atend(&head,10);
     insert_atend(&head,3);
@@ -58,3 +59,4 @@ int main(){
 
     return 0;
 }
+
