@@ -52,5 +52,3 @@ int main(){
     add(&head,3);
     return 0;
 }
-
-
