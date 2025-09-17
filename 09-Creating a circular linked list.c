@@ -43,6 +43,8 @@ void add( struct node** head_point,int new_data){
 
 int main(){
     struct node* head=NULL;
+
+    //logic for calling function
     add(&head,2);
     add(&head,4);
     add(&head,5);
@@ -50,4 +52,5 @@ int main(){
     add(&head,3);
     return 0;
 }
+
 
