@@ -77,7 +77,9 @@ int main(){
     add(&head,9);
     add(&head,3);
 
+    //logic for deleting function
     delete(&head);
 
    return 0;
 }
+
