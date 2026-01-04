@@ -1,0 +1,55 @@
+#include<iostream>
+#include<cstdlib>
+using namespace std;
+
+struct node{
+    int data;
+    struct node* next;
+};
+
+struct node* create(int value){
+    struct node* new_node=(struct node*)malloc(sizeof(struct node));
+    new_node->data=value;
+    new_node->next=NULL;
+    return new_node;
+}
+
+
+void insert(struct node** head,int value){
+    struct node* new_node=create(value);
+    if(*head==NULL){
+        *head=new_node;
+        return;
+    }
+    struct node* current=*head;
+    while(current->next!=NULL){
+        current=current->next;
+    }
+    current->next=new_node;
+
+}
+
+int sum_node(struct node* head,int sum){
+    struct node* current=head;
+    while(current!=NULL){
+        sum=sum+current->data;
+        current=current->next;
+    }
+
+    return sum;
+}
+int main(){
+    struct node* head=NULL;
+    int n,x;
+    cin>>n;
+    for(int i=0;i<n;i++){
+        cin>>x;
+        insert(&head,x);
+    }
+
+    cout<<sum_node(head,0);
+
+
+
+    return 0;
+}
