@@ -7,6 +7,7 @@ struct node{
     struct node* next;
 };
 
+//logic for create function
 struct node* create(int data){
     
     struct node* newnode=(struct node*)malloc(sizeof(struct node));
@@ -56,4 +57,5 @@ int main(){
 
 
     return 0;
+
 }
