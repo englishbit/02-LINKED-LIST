@@ -53,6 +53,7 @@ int main(){
         insert(&head,x);
     }
 
+    //logic for output
     display(head);
 
 
@@ -60,4 +61,5 @@ int main(){
     return 0;
 
 }
+
 
