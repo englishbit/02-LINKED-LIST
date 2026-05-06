@@ -2,7 +2,7 @@
 #include<stdlib.h>
 
 
-//defining the structure 
+//DEFINING THE STRUCTURE
 struct node{
     int data;
     struct node* next;
